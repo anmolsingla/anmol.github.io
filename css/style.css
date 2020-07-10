@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Sacramento&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin:5px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    font-family: 'Galada', cursive;
+}
+.nav-list{
+    width: 70%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: rgb(230, 219, 219);
+}
+.rightNav{
+    /* background-color:purple; */
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding:5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/web1.jpg');
+    width: 100%;
+    height: 100%;
+    background-size:inherit;
+    background-blend-mode: darken;
+    /* height: auto; */
+}
+.img1{
+    width: 19%;
+}
+.img3{
+    width: 36%;
+}
+.img2{
+    width: 24%;
+}
+.img4{
+    width: 28%;
+}
+.img5{
+    width: 21%;
+}
+.links{
+    width: 19%;
+}
+.links2{
+    width: 32%;
+}
+.gfg{
+    width: 16%;
+}
+.sec{
+    width: 400px;
+  border: 10px solid lightgrey;
+  padding: 50px;
+  margin: 20px;
+  /* box-shadow: 10px 20px #888888; */
+  box-shadow: -10px -20px #888888;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    margin: auto;
+    height: 70%;
+}
+.firstSection{
+    height: 100vh;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 1000%;
+}
+.secondHalf img{
+    width: 30%;
+    padding: 4px 0;
+    border: 4px solid white;
+    border-radius: 500px;
+    display: block;
+    margin:auto;
+    margin-bottom:0px;
+    /* box-shadow: 2px 5px #888888; */
+}
+.text-big{
+    font-size: 25px;
+}
+.text-small{
+    font-size: 15px;
+}
+.btn{
+    padding:8px 20px ;
+    border: 2px solid white;
+    background: none;
+    border-radius: 8px;
+    margin: 8px 3px;
+    color:white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+.btn-sm{
+    padding:6px 10px ;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.btn-dark{
+    border: 2px solid grey;
+    color: black;
+}
+.section{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 400px; */
+    max-width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.paras{
+    padding: 0 65px;
+
+}
+.section-left{
+    
+    flex-direction: row-reverse;
+}
+.sectionTag{
+    padding:16px 0;
+}
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+    box-shadow: 10px 10px #888888;
+}
+.contact{
+    background-color: whitesmoke;
+    height: 733px;
+}
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+
+.email{
+    margin-left: 23%;
+    /* text-shadow: 0.3px 1px; */
+}
+.form-input{
+    width: 100%;
+    padding: 5px 3px;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    margin: 14px 0;
+}
+.text-footer{
+    text-align: center;
+    /* padding-top: 20px; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    color: white;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color:white;
+    height: 4px;
+    margin: 5px 3px;
+}
+section::before{
+    background: url("../img/aniketback.jpg");
+    content: " ";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+li>a:hover{
+    font-size: 1.7rem;
+    background-color:rgb(180, 179, 179);
+}
+.ani{
+    margin-left:430px;
+    font-size: 20px;
+    font-family: 'Galada', cursive;
+}
+.bioa{
+    width: 500px;
+    height: 400px;
+    border: 2px solid lightgray;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 10px 10px #888888;
+    
+}
+.bio{
+    font-size: 20px;
+    /* margin: auto; */
+}
+.biog,.skills{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+ 
